@@ -11,10 +11,47 @@
 <table id="header">
     <tr>
         <th id="logoRow"><img id="logo" src="Unknown-1.png" onclick="generate()"/></th>
-        <th id="Categories">Categories</th>
-        <th id="Deals">Deals</th>
-        <th id="WhatsNew">What's New</th>
-        <th id="PickUp&Delivery">Pickup & Delivery</th>
+        <th id="Categories">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Categories</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.target.com/c/grads/-/N-n6wm9">Graduation</a>
+                    <a href="https://www.target.com/c/grocery/-/N-5xt1a">Grocery</a>
+                    <a href="https://www.target.com/c/household-essentials/-/N-5xsz1">Household Essentials</a>
+                </div>
+            </div>
+        </th>
+        <th id="Deals">
+            <div class="dropdown2">
+                <button onclick="myFunction2()" class="dropbtn2">Deals</button>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <a href="https://www.target.com/c/clearance/-/N-5q0ga?lnk=dNav_clearance">Clearance</a>                                
+                    <a href="https://weeklyad.target.com/?lnk=dNav_weeklyad">Weekly Ad</a>
+                    <a href="https://www.target.com/c/top-deals/-/N-4xw74?lnk=dNav_topdeals">Top Deals</a>
+                </div>
+            </div>
+
+        </th>
+        <th id="WhatsNew">
+            <div class="dropdown3">
+                <button onclick="myFunction3()" class="dropbtn3">What's New</button>
+                <div id="myDropdown3" class="dropdown-content3">
+                    <a href="https://www.target.com/finds/targetstyle?lnk=TS_GDD">#TargetStyle</a>                                
+                    <a href="https://www.target.com/c/new-arrivals/-/N-4ykw6?lnk=WC_GDD">Women's New Arrivals</a>
+                    <a href="https://www.target.com/c/new-in-beauty/-/N-2jck6?lnk=NB_GDD">Beauty New Arrivals</a>
+                </div>
+            </div>
+        </th>
+        <th id="PickUp&Delivery">
+            <div class="dropdown4">
+                <button onclick="myFunction4()" class="dropbtn4">Pickup & Delivery</button>
+                    <div id="myDropdown4" class="dropdown-content4">
+                        <a href="https://www.target.com/c/order-pickup/-/N-ng0a0">Order Pickup</a>                                
+                        <a href="https://www.target.com/c/same-day-delivery/-/N-bswkz">Same Day Delivery</a>
+                        <a href="https://www.target.com/c/drive-up/-/N-9d42z">Drive Up</a>
+                    </div>
+                </div>
+        </th>
         <th id="searchBar">
             <form id="search-form">
                 <div class="search">
@@ -35,8 +72,8 @@
 
 <table id="secondaryBox">
         <tr>
-            <th id="trendHeadbox1"> Shop our sqishmallows! <br> Featured on TikTok <br> <img id="squish" src="Unknown.jpeg" onclick="generate()"/> </th>
-            <th id="trendHeadbox1"> Try our trendy dresses! <br> Popular on Pinterest</th>
+            <th id="trendHeadbox1"> <h2>Shop our sqishmallows!</h2> Featured on TikTok <br> <img id="squish" src="Unknown.jpeg" onclick="generate()"/> </th>
+            <th id="trendHeadbox1"> <h2>Try our trendy dresses!</h2> Popular on Pinterest <br> <img id="dresses" src="pinterestDresses.png" onclick="generate()"/></th>
         </tr>
 </table>
 
