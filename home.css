@@ -1,0 +1,57 @@
+#header {
+    background-color: #E80018;
+    height: 40px;
+    width: 100%;
+    font-family: Helvetica, serif;
+    font-size: 1.5em;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+}
+
+.round {
+    border-radius: 15px;
+    padding: 5px 5px 5px 25px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+#trendHead {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    font-family: Helvetica, serif;
+    font-size: 1.5em;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 20px;
+}
+
+#trendHeadTxT {
+    background-color: #E80018;
+    height: 60px;
+}
+
+#trendHeadbox1 {
+    background-color: #E80018;
+    height: 150px;
+
+}
+
+#secondaryBox {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    font-family: Helvetica, serif;
+    font-size: 1.5em;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 20px;
+}
+
